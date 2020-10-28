@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+body{
+    background-color: #202225;
+}
+/* Hier wird der Header definiert. */
+header{
+    /* rgb(114, 137, 218) */
+    background-color: rgb(211, 111, 50);
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    
+}
+
+header > ul >a {
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 5px;
+    
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    display: inline;
+}
+header > ul >a:hover{
+    color: black;
+    
+}
+header > ul {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#Logo > img{
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    position: absolute;
+}
+#login{
+    width: 110px;
+    height: 40px;
+    position: relative;
+    float: right;
+    color: white;
+    background-color: rgb(211, 111, 50);
+    border: 1px solid white;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+#login:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+/*Hier ist die Header Definition zuende. */
+
+/*Hier werden die iframes definiert, Teamspeak und Discord*/
+.iframes{
+    text-align: center;
+    padding-top: 120px;
+    
+    
+}
+
+
+/*Hier wird der footer definiert*/
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(167,62,33);
+    
+    bottom: -29px;
+    position: relative;
+    
+}
+
+.footer > p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    top: 20px;
+    padding-top: 20px;
+ 
+}
+.footer > p > a{
+    text-decoration: none;
+    color: white;
+    height: 0px;
+    
+}
+.footer > p > a:hover{
+    text-decoration: none;
+    color: black;
+}
+.footer > a{
+    float: right;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+}
+
+
