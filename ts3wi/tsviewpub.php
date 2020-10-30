@@ -367,6 +367,15 @@ if($con['success']!==true)
 <meta http-equiv="refresh" content="10" />
 <link rel="stylesheet" href="gfx/tsviewpub.css" type="text/css" media="screen" />
 <style type="text/css">
+html
+	{
+	overflow: scroll;
+	}
+	::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 body
 	{
 	font-family:verdana, sans-serif;
