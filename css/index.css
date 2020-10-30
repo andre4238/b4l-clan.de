@@ -87,7 +87,12 @@ header > ul {
     
 }
 
-
+.impressum
+{
+	    text-align: center;
+    padding-top: 120px;
+	
+}
 /*Hier wird der footer definiert*/
 .footer {
   position: fixed;
