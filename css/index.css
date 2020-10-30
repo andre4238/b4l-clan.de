@@ -44,14 +44,20 @@ header > ul >a:hover{
     
 }
 header > ul {
-    text-align: center;
+    text-align: left;
     margin-top: 25px;
+    
+    
 }
-
+#Logo{
+    border: 1 px solid white;
+}
 #Logo > img{
-    width: 100px;
+    border: 1 px solid white;
+    padding-left: 40%;
+    width: 300px;
     height: 80px;
-    margin-left: 20px;
+    align-items: center;
     position: absolute;
 }
 #login{
@@ -87,11 +93,12 @@ header > ul {
   position: fixed;
   left: 0;
   bottom: 0;
- height: 4em;	
+  height: 4em;	
   font-size: 130%; 
   line-height: 50px; 
   width: 100%;
   background-color: #0C1013;
   color: white;
-  text-align: center
+  text-align: center;
+  text-decoration: none;
 }
