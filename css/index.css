@@ -9,12 +9,12 @@ html{
 }
 
 body{
-    background-color: #0C1013;
+    background-color: #202326;
 }
 /* Hier wird der Header definiert. */
 header{
     /* rgb(114, 137, 218) */
-    background-color: #202326;
+    background-color: #0C1013;
     opacity: 90%;
     backdrop-filter: blur(4px);
     width: 100%;
@@ -91,7 +91,7 @@ header > ul {
   font-size: 130%; 
   line-height: 50px; 
   width: 100%;
-  background-color: #202326;
+  background-color: #0C1013;
   color: white;
   text-align: center
 }

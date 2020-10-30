@@ -1,0 +1,67 @@
+<head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+
+  
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: relative;
+  display: block;
+	top: 1em;
+
+  
+  width: 60%;
+  
+  font-size: 1em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -10%; opacity: 0; }
+  8.3%,25% { left: 0%; opacity: 1; }
+  33.33%, 100% { left: 30%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -10%; opacity: 0; }
+  41.63%, 58.29% { left: 0%; opacity: 1; }
+  66.66%, 100% { left: 30%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -10%; opacity: 0; }
+  74.96%, 91.62% { left: 0%; opacity: 1; }
+  100% { left: 30%; opacity: 0; }
+}
+</style>
+</head>
+
+<!-- MOTD beginnt hier --!>
+
+<p class="item-1">Die Hood f&auml;ngt dich immer auf.</p>
+
+<p class="item-2">Einmal B4L, immer B4L.</p>
+
+<p class="item-3">Was liest du dir die Schei&szlig;e hier eingentlich durch?</p>
